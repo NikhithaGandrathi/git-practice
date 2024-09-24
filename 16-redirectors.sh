@@ -41,7 +41,7 @@ CHECK_ROOT
 if [ $# -eq 0 ]
 then 
     USAGE
-f1
+fi
 
 #sh 15-loops.sh git mysql pstfix nginx
 for package in $@ #$@ refers to all arguments passed to it
